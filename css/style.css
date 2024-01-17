@@ -193,6 +193,11 @@ li{
     background-size: cover;
 }
 
+
+.intros{
+    transition: 1s;
+}
+
 .case{
     width: 100%;
     padding-left: 7.5vw;
@@ -215,6 +220,7 @@ li{
     text-transform: uppercase;
     letter-spacing: .24em;
     order: 2;
+    z-index: 1;
     display: flex;
     mix-blend-mode: multiply;    
 }
@@ -239,6 +245,7 @@ li{
     font-size: 1.66vw;
     line-height: 1;
     letter-spacing: .27em;
+    z-index: 1;
 }
 .para:before{
     position: relative;

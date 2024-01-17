@@ -307,3 +307,42 @@ video{
     margin-bottom: 0px;
     font-weight: 900;
 }
+
+.animate_h1intro{
+    transform: translateX(-5%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+.animate_para{
+    transform: translateX(5%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+.animate_video{
+    transform: translateY(60px);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+.animate_desc{
+    opacity: 0;
+    background-color: transparent;
+    transition: transform 1s ease, opacity 1s ease, background-color 1s ease;
+    transition-delay: 0.5s;
+}
+.animate_p{
+    transform: translateX(-10%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+    transition-delay: 0.5s;
+}
+.animate_content{
+    transform: translateX(-10%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+.animate_vec{
+    opacity: 0;
+    transition-delay: 1s;
+    transition: opacity 2s ease;
+}
+

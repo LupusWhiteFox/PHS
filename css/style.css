@@ -1,10 +1,12 @@
 :root{
-    --black-color: #2c2c2c
+    --black-color: #2c2c2c;
     --text-base-color: var(--black-color);
     --white-color: #fff;
     --text-invert-color: var(--white-color);
     --background-invert-color: var(--black-color);
     --accent-color: #FF88BB;
+    --gray-color: #f5f5f5;
+    --background-sub-color: var(--gray-color);
 }
 :after, :before{
     border-width: 0;
@@ -17,7 +19,7 @@ a{
     background-color: transparent;
 }
 body{
-    font-size: "Noto Sans JP", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     line-height: 1.5;
     color: var(--text-base-color);
     letter-spacing: 0.5em;
@@ -345,4 +347,90 @@ video{
     transition-delay: 1s;
     transition: opacity 2s ease;
 }
-
+.event_bg{
+    margin-top: -.5px;
+    background-color: var(--background-sub-color);
+}
+.lcase{
+    width: 100%;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+}
+.event_wrapper{
+    position: relative;
+    top: -2vw;
+    padding-bottom: 2vw;
+}
+.heading_event{
+    display: flex;
+    justify-content: flex-end;
+}
+.event_heading{
+    display: flex;
+    flex-direction: column;
+}
+.event_heading{
+    display: flex;
+    font-family: Raleway,sans-serif;
+    font-size: 6.25vw;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .24em;
+}
+.event_table{
+    display: table;
+}
+.event_word{
+    display: inline-block;
+}
+.para_event{
+    display: flex;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.66vw;
+    line-height: 1;
+    letter-spacing: .27em;
+}
+.para_event:before{
+    position: relative;
+    top: .75vw;
+    display: block;
+    width: 3.66vw;
+    height: 1px;
+    margin-right: 1vw;
+    content: "";
+    background-color: var(--background-invert-color);
+}
+.pad{
+    padding-left: 0;
+}
+.recent_event{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+.recent_textWrapper{
+    margin-top: 4vw;
+    margin-right: -4.5vw;
+}
+.event_desc{
+    display: table;
+    padding: 0 24px;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: .1em;
+    background-color: var(--accent-color);
+    transform-origin: left;
+    font-family: Noto Sans JP,sans-serif;
+}
+.event_description{
+    margin-top: 16px;
+}
+.event_textdesc{
+    font-size: 1rem;
+    line-height: 2;
+    white-space: pre-wrap;
+    font-family: Noto Sans JP,sans-serif;
+    letter-spacing: 0.3em;
+}

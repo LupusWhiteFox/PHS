@@ -1,5 +1,5 @@
 
-let sections = document.querySelectorAll('section');
+let sections = document.querySelectorAll('#introduction');
 window.onscroll = () => {
     sections.forEach(sec => {
         let top = window.scrollY;
